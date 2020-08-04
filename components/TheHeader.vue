@@ -32,3 +32,14 @@ export default {
   }
 }
 </script>
+
+<style scoped lang="scss">
+  @media screen and (min-width: 860px) {
+    nav.v-navigation-drawer {
+      display: none!important;
+    }
+    .v-app-bar__nav-icon {
+      display: none!important;
+    }
+  }
+</style>
