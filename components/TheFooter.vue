@@ -1,13 +1,11 @@
 <template>
-  <v-app>
-    <v-footer color="blue-grey darken-3" dark app>
-      <v-col
-        class="text-center"
-        >
-          {{ new Date().getFullYear() }} - <strong>©hatori info</strong>
-        </v-col>
-    </v-footer>
-  </v-app>
+  <v-footer color="blue-grey darken-3" dark app>
+    <v-col
+      class="text-center"
+      >
+        {{ new Date().getFullYear() }} - <strong>©hatori info</strong>
+      </v-col>
+  </v-footer>
 </template>
 
 <style scoped lang="scss">

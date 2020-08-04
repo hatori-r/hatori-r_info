@@ -1,14 +1,12 @@
 <template>
-  <section class="top-page">
-    <h1>Welcom</h1>
-    <hr>
-    <p>to my introduction site.</p>
-  </section>
+  <div class="pages">
+    <section class="top-page">
+      <h1>Welcom</h1>
+      <hr>
+      <p>to my introduction site.</p>
+    </section>
+  </div>
 </template>
-
-<script>
-
-</script>
 
 <style scoped lang="scss">
   h1 {

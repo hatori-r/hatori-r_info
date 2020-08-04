@@ -58,7 +58,9 @@ export default {
   /*
   ** Nuxt.js modules
   */
-  modules: [['nuxt-webfontloader']],
+  modules: [
+    ['nuxt-webfontloader']
+  ],
   webfontloader: {
     google: {
       families: ['Josefin+Sans']
