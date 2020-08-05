@@ -1,7 +1,7 @@
 <template>
   <div class="pages">
     <section class="about-page">
-      <h1>about</h1>
+      <h2>about</h2>
     </section>
   </div>
 </template>

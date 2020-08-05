@@ -66,6 +66,10 @@ export default {
 </script>
 
 <style scoped lang="scss">
+.v-main {
+  padding: 0!important;
+}
+
 .v-app-bar {
   padding-top: 10px;
   padding-bottom: 70px;
@@ -87,7 +91,6 @@ h1 {
 .half-window {
   li {
     display: block;
-    padding: 22px 0 22px 25px;
     font-weight: bold;
     letter-spacing: 0.03em;
     transition: all 0.2s;
@@ -95,13 +98,20 @@ h1 {
       transition: all 0.2s;
       text-shadow: 0 0 5px #abcdd3;
     }
+    a {
+      display: block;
+      padding: 22px 0 22px 25px;
+    }
   }
 }
 
 .full-window {
+  height: 100%;
   display: flex;
   li {
-    padding-left: 40px;
+    display: block;
+    height: 100%;
+    padding-left: 20px;
     font-weight: bold;
     letter-spacing: 0.03em;
     transition: all 0.2s;
@@ -110,7 +120,14 @@ h1 {
       text-shadow: 0 0 5px #abcdd3;
     }
     &:last-child {
-      padding-right: 120px;
+      padding-right: 160px;
+    }
+    a {
+    display: block;
+    height: 100%;
+    width: 80px;
+    text-align: center;
+    line-height: 56px;
     }
   }
 }
