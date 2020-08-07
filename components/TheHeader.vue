@@ -83,7 +83,7 @@ export default {
 
 h1 {
   font-size: 35px;
-  color: #3f3f3f;
+  color: #505050;
   font-weight: bold;
   letter-spacing: 0.02em;
 }
@@ -91,12 +91,12 @@ h1 {
 .half-window {
   li {
     display: block;
-    font-weight: bold;
     letter-spacing: 0.03em;
     transition: all 0.2s;
     &:hover {
       transition: all 0.2s;
-      text-shadow: 0 0 5px #abcdd3;
+      font-weight: bold;
+      text-shadow: 0 0 2px #abcdd3;
     }
     a {
       display: block;
@@ -112,12 +112,12 @@ h1 {
     display: block;
     height: 100%;
     padding-left: 20px;
-    font-weight: bold;
     letter-spacing: 0.03em;
     transition: all 0.2s;
     &:hover {
       transition: all 0.2s;
-      text-shadow: 0 0 5px #abcdd3;
+      font-weight: bold;
+      text-shadow: 0 0 2px #abcdd3;
     }
     &:last-child {
       padding-right: 160px;
