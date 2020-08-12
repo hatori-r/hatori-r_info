@@ -14,7 +14,7 @@
 .top-page {
   .top-text {
     width: 85%;
-    margin: 160px auto 0;
+    margin: 180px auto 0;
     h1 {
       padding-left: 60px;
       // font-family: 'Josehin Sans', sans-serif;

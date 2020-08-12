@@ -98,6 +98,5 @@ export default {
   generate: {
     dir: 'public',
     fallback: true
-  },
-  loading: '~/components/Loading.vue',
+  }
 }
