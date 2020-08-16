@@ -12,9 +12,10 @@
 
 <style scoped lang="scss">
 .top-page {
+  padding-top: 220px;
   .top-text {
     width: 85%;
-    margin: 180px auto 0;
+    margin: 0 auto;
     h1 {
       padding-left: 60px;
       // font-family: 'Josehin Sans', sans-serif;

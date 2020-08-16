@@ -1,7 +1,4 @@
 * {
-  overflow: hidden!important;
-  // overflow-x: hidden!important;
-  // overflow-y: hidden!important;
   margin: 0 auto;
   font-size: 18px;
   // color: #333;
@@ -22,21 +19,22 @@ a {
 }
 
 .pages {
-  height: 85vh;
+  min-height: calc(100vh - 141px);
   max-width: 1400px;
-  margin: 80px auto 0;
+  margin: 0 auto;
   .top-page,
   .about-page,
   .works-page,
   .contact-page,
   .error-page {
     height: 100%;
-    overflow: auto!important;
+    margin-top: 82px;
     h2 {
       width: 85%;
       display: flex;
       align-items: center;
-      margin: 100px auto 70px;
+      padding-top: 90px;
+      margin: 0 auto 70px;
       font-size: 30px;
       &::after {
         content: '';
@@ -48,4 +46,8 @@ a {
       }
     }
   }
+}
+
+.pages > .contact-page {
+  min-height: 120vh;
 }

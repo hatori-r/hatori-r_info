@@ -8,7 +8,8 @@
             <a href="https://hatori-r.info/">
               <v-card max-width="380">
                 <v-img
-                  class="white--text align-end hatoriinfo"
+                  :src="require('@/static/hatoriblog.png')"
+                  class="white--text align-end hatoriblog"
                   >
                   </v-img>
                   <v-card-title class="headline">

@@ -5,10 +5,10 @@
       <div class="about-text">
         <h3>name</h3>
         <hr>
-          <p>lorem</p>
-        <h3>histry</h3>
+          <p class="my-name">Hattori Reiya</p>
+        <!-- <h3>histry</h3>
         <hr>
-          <p>lorem</p>
+          <p>lorem</p> -->
       </div>
     </section>
   </div>
@@ -25,6 +25,9 @@
     p {
       padding: 0 50px;
       margin: 40px 0;
+    }
+    .my-name {
+      font-size: 30px;
     }
   }
 </style>
