@@ -9,15 +9,16 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^1.2.30",
+    "@fortawesome/fontawesome-svg-core": "^1.2.34",
     "@fortawesome/vue-fontawesome": "^0.1.10",
-    "nuxt": "^2.14.0",
+    "@nuxtjs/sitemap": "^2.4.0",
+    "nuxt": "^2.14.12",
     "nuxt-fontawesome": "^0.4.0",
     "nuxt-webfontloader": "^1.1.0"
   },
   "devDependencies": {
-    "@nuxtjs/vuetify": "^1.11.2",
+    "@nuxtjs/vuetify": "^1.11.3",
     "node-sass": "^4.14.1",
-    "sass-loader": "^9.0.2"
+    "sass-loader": "^9.0.3"
   }
 }
